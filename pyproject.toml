@@ -2,23 +2,23 @@
 name = "drftreeview"
 version = "0.0.1"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Anatoly develop@inqana.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-django = "^5.1.1"
-djangorestframework = "^3.15.2"
-psycopg2 = "^2.9.9"
-django-filter = "^24.3"
-python-decouple = "^3.8"
-dj-database-url = "^2.2.0"
+django = "*"
+djangorestframework = "*"
+psycopg2 = "*"
+django-filter = "*"
+python-decouple = "*"
+dj-database-url = "*"
 
 
 [tool.poetry.group.dev.dependencies]
-black = "^24.8.0"
-isort = "^5.13.2"
-pre-commit = "^3.8.0"
+black = "*"
+isort = "*"
+pre-commit = "*"
 
 [build-system]
 requires = ["poetry-core"]
