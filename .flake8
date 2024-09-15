@@ -1,0 +1,12 @@
+[flake8]
+exclude =
+  .git,
+  __pycache__,
+  .venv,
+  */migrations/*
+statistics = True
+max-line-length = 100
+max-complexity = 10
+ignore-django-orm-queries-complexity = True
+noqa-require-code = True
+ignore = PIE803, PIE785, PIE783, W503, PIE798, A003

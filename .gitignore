@@ -1,0 +1,11 @@
+*.pyc
+.env
+/.venv
+/compose/env.local
+# /volumes/logs
+# /volumes/postgres/backup
+app/celerybeat-schedule
+app/pyproject.toml
+health_check_storage_test
+poetry.lock
+.mypy_cache
